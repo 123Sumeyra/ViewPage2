@@ -12,6 +12,7 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.sum.viewpage.databinding.FragmentViewPagerBinding
 import com.sum.viewpage.screens.FirstFragment
+import com.sum.viewpage.screens.FourthFragment
 import com.sum.viewpage.screens.SecondFragment
 import com.sum.viewpage.screens.ThirdFragment
 

@@ -5,6 +5,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.sum.viewpage.screens.FirstFragment
+import com.sum.viewpage.screens.FourthFragment
 import com.sum.viewpage.screens.SecondFragment
 import com.sum.viewpage.screens.ThirdFragment
 
@@ -19,7 +20,18 @@ class ViewPageAdapter(list:ArrayList<Fragment>, fm:FragmentManager, lifecycle: L
     }
 
     override fun createFragment(position: Int): Fragment {
-       return fragmentList[position]
+       //return fragmentList[position]
+        when(position){
+            0-> return  FirstFragment()
+            1 -> return  SecondFragment()
+            2 -> return ThirdFragment()
+           else -> return  FourthFragment()
+
+        }
+
+
+
+
 
     }
 }
