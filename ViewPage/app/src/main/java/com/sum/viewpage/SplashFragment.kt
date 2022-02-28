@@ -38,7 +38,7 @@ class SplashFragment : Fragment() {
 
             // Your Code
             findNavController().navigate(R.id.action_splashFragment_to_viewPageFragment2)
-        }, 2200)
+        }, 2500)
         // Inflate the layout for this fragment
         return view
     }
